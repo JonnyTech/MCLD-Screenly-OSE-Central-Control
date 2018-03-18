@@ -4,25 +4,17 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MCLD Screenly Central Control</title>
+    <title>Farnborough Digital Signage Control Centre</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Custom styles for this template -->
     <link href="css/simple-sidebar.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
@@ -35,59 +27,68 @@
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        MCLD Screenly Central
+                        Farnborough Signage
                     </a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','ad')">Administration</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.01:8080'; replaceContentInContainer('screenname','01')">Screen 01</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'">Aguila <font color="red">(NOT IN SERVICE)</font></a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.02:8080'; replaceContentInContainer('screenname','02')">Screen 02</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','em')">El Mirage</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.03:8080'; replaceContentInContainer('screenname','03')">Screen 03</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','fa')">Fairway</a>
-                </li>
-                <li> 
-                	<a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','fh')">Fountain Hills</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.04:8080'; replaceContentInContainer('screenname','04')">Screen 04</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','gb')">Gila Bend</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.05:8080'; replaceContentInContainer('screenname','05')">Screen 05</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','go')">Goodyear (HD)</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.06:8080'; replaceContentInContainer('screenname','06')">Screen 06</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','gu')">Guadalupe</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.07:8080'; replaceContentInContainer('screenname','07')">Screen 07</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','lp')">Litchfield Park (HD)</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.08:8080'; replaceContentInContainer('screenname','08')">Screen 08</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','nv')">North Valley Regional</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.09:8080'; replaceContentInContainer('screenname','09')">Screen 09</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','nw')">Northwest</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.10:8080'; replaceContentInContainer('screenname','10')">Screen 10</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','pe')">Perry</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.11:8080'; replaceContentInContainer('screenname','01')">Screen 11</a>
                 </li>
                 <li>
-					<a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','qc')">Queen Creek</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.12:8080'; replaceContentInContainer('screenname','02')">Screen 12</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080/'; replaceContentInContainer('bname','ro')">Robson (HD)</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.13:8080'; replaceContentInContainer('screenname','03')">Screen 13</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','se')">Southeast</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.14:8080'; replaceContentInContainer('screenname','04')">Screen 14</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080'; replaceContentInContainer('bname','sc')">Sun City</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.15:8080'; replaceContentInContainer('screenname','05')">Screen 15</a>
                 </li>
                 <li>
-                    <a href="#" onclick="parent.window.frames['branch'].location = 'http://127.0.0.1:8080/'; replaceContentInContainer('bname','wt')">White Tank (HD)</a>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.16:8080'; replaceContentInContainer('screenname','06')">Screen 16</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.17:8080'; replaceContentInContainer('screenname','07')">Screen 17</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.18:8080'; replaceContentInContainer('screenname','08')">Screen 18</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.19:8080'; replaceContentInContainer('screenname','09')">Screen 19</a>
+                </li>
+                <li>
+                    <a href="#" onclick="parent.window.frames['piweb'].location = 'http://127.0.0.20:8080'; replaceContentInContainer('screenname','10')">Screen 20</a>
                 </li>
             </ul>
         </div>
@@ -96,13 +97,8 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div id="bname"><h1>MCLD Screenly Control Center</h1></div> 
-                        <!-- <p><a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a></p> -->
-                        <iframe name="branch" src="" frameborder="no" border="0" height="1000" width="100%"></iframe>
-                    </div>
-                </div>
+                <div id="screenname"><h1>Farnborough Digital Signage Control Centre</h1></div>
+                <iframe name="piweb" src="" frameborder="no" border="0" height="1000" width="100%"></iframe>
             </div>
         </div>
         <!-- /#page-content-wrapper -->
@@ -110,11 +106,9 @@
     </div>
     <!-- /#wrapper -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Menu Toggle Script -->
     <script>
@@ -123,32 +117,36 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-	
-	<!-- Branch Name Changing Script -->
-	<script>
-	function replaceContentInContainer(target,source) {
-        document.getElementById(target).innerHTML  = document.getElementById(source).innerHTML;
-      }
-	</script>
 
-<div id="replacements" style="display:none;">
-<span id="fh"><h1>Fountain Hills</h1></span>
-<span id="gb"><h1>Gila Bend</h1></span>
-<span id="nw"><h1>Northwest Regional</h1></span>
-<span id="go"><h1>Goodyear</h1></span>
-<span id="qc"><h1>Queen Creek</h1></span>
-<span id="se"><h1>Southeast Regional</h1></span>
-<span id="ad"><h1>Administration Lobby</h1></span>
-<span id="em"><h1>El Mirage</h1></span>
-<span id="fa"><h1>Fairway</h1></span>
-<span id="sc"><h1>Sun City</h1></span>
-<span id="lp"><h1>Litchfield Park</h1></span>
-<span id="wt"><h1>White Tank</h1></span>
-<span id="pe"><h1>Perry</h1></span>
-<span id="ro"><h1>Robson</h1></span>
-<span id="gu"><h1>Guadlupe</h1></span>
-<span id="nv"><h1>North Valley Regional</h1></span>
-</div>
+    <script>
+        function replaceContentInContainer(target,source) {
+            document.getElementById(target).innerHTML  = document.getElementById(source).innerHTML;
+        }
+    </script>
+
+    <div id="replacements" style="display:none;">
+        <span id="01"><h1>Screen 01</h1></span>
+        <span id="02"><h1>Screen 02</h1></span>
+        <span id="03"><h1>Screen 03</h1></span>
+        <span id="04"><h1>Screen 04</h1></span>
+        <span id="05"><h1>Screen 05</h1></span>
+        <span id="06"><h1>Screen 06</h1></span>
+        <span id="07"><h1>Screen 07</h1></span>
+        <span id="08"><h1>Screen 08</h1></span>
+        <span id="09"><h1>Screen 09</h1></span>
+        <span id="10"><h1>Screen 10</h1></span>
+        <span id="11"><h1>Screen 11</h1></span>
+        <span id="12"><h1>Screen 12</h1></span>
+        <span id="13"><h1>Screen 13</h1></span>
+        <span id="14"><h1>Screen 14</h1></span>
+        <span id="15"><h1>Screen 15</h1></span>
+        <span id="16"><h1>Screen 16</h1></span>
+        <span id="17"><h1>Screen 17</h1></span>
+        <span id="18"><h1>Screen 18</h1></span>
+        <span id="19"><h1>Screen 19</h1></span>
+        <span id="20"><h1>Screen 20</h1></span>
+    </div>
+
 </body>
 
 </html>
